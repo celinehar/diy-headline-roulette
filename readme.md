@@ -26,6 +26,8 @@ It's up to you. Build a version for your workshop, class, or community. Build a 
 8. Click on the 'Commit changes' button to save your details.
 9. That's it! Your hew game will be available at the address -- http://**[your Github user name]**.github.io/**[your repository name]**. For example, my user account is 'wragge' and I created a version of this repository called 'canberra-headline-roulette', so you can find it online at [http://wragge.github.io/canberra-headline-roulette/](http://wragge.github.io/canberra-headline-roulette/).
 
+[http://celinehar.github.io/wa-headline-roulette/](http://celinehar.github.io/wa-headline-roulette/)
+
 ## Customisation guide
 
 There are only two things you have to supply:
