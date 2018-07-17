@@ -8,7 +8,7 @@ $(function(){
     var apiQuery = '';
     // Words you want to search for -- separate multiple values with spaces, eg:
     // var keywords = 'weather wragge';
-    var keywords = 'west western australia';
+    var keywords = '';
     // How you want to combine keywords -- all, any, or phrase
     var keywordType = 'all'
     // Limit to a particular year
@@ -19,7 +19,7 @@ $(function(){
     var year = '';
     // Newspaper id numbers -- separate multiple values with spaces, eg:
     // var titles = '840 35';
-    var titles = '';
+    var titles = '30';
     // Add a byline, eg:
     var byline = 'Created by <a href="https://timsherratt.org">Tim Sherratt</a>.'
     // var byline = '';
