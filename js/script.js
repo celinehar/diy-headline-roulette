@@ -66,7 +66,7 @@ $(function(){
         if(document.getElementById('customQuery').value){
           keywords = document.getElementById('customQuery').value;
         }
-        else{ keywords = "western%20australia";}
+        else{ keywords = "western australia";}
         query = apiQuery.replace(/&n=\d+/, "").replace(/&s=\d+/, "").replace(/&key=[a-z0-9]+/, "").replace(/&encoding=xml/, "&encoding=xml")
             if (keywords !== '') {
                 let words = keywords.split(' ');
