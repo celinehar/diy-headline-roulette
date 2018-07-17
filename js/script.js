@@ -5,7 +5,7 @@ $(function(){
     // You must supply a Trove API key
     var troveAPIKey = '6ra0un5mulvqome3';
     // Either provide full API query here or include options below
-    var apiQuery = '';
+    var apiQuery = 'http://api.trove.nla.gov.au/result?key=6ra0un5mulvqome3&zone=picture&q=perth&encoding=json';
     // Words you want to search for -- separate multiple values with spaces, eg:
     // var keywords = 'weather wragge';
     var keywords = '';
@@ -19,7 +19,7 @@ $(function(){
     var year = '';
     // Newspaper id numbers -- separate multiple values with spaces, eg:
     // var titles = '840 35';
-    var titles = '30';
+    var titles = '';
     // Add a byline, eg:
     var byline = 'Created by <a href="https://timsherratt.org">Tim Sherratt</a>.'
     // var byline = '';
