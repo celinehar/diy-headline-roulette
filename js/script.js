@@ -5,10 +5,10 @@ $(function(){
     // You must supply a Trove API key
     var troveAPIKey = '6ra0un5mulvqome3';
     // Either provide full API query here or include options below
-    var apiQuery = 'https://trove-proxy.herokuapp.com/api/result?key=6ra0un5mulvqome3&zone=picture&encoding=json';
+    var apiQuery = 'http://api.trove.nla.gov.au/result?key=6ra0un5mulvqome3&zone=picture&encoding=json';
     // Words you want to search for -- separate multiple values with spaces, eg:
     // var keywords = 'weather wragge';
-    var keywords = 'western%20australia';
+    var keywords = 'western australia';
     // How you want to combine keywords -- all, any, or phrase
     var keywordType = 'all'
     // Limit to a particular year
