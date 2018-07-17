@@ -1,11 +1,13 @@
-#headline {font-weight: bold;}
-#paper {font-style: italic;}
-#count {text-align:center;
-	border-radius: 4px;
-	margin: 1rem;
-	background:  white;}
-#count p {margin: 0; 
-	padding: .25rem .5rem;}
+#article { min-height: 200px;}
+#headline { font-weight: bold;}
+#paper { font-style: italic;}
+#count {
+    text-align:center;
+    -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+      }
+#count p {margin: 0;}
 #guesses {font-size: 400%; line-height: 200%;}
 #text-guesses {
                 width: 100%;
@@ -14,7 +16,7 @@
                 font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
                 font-size: 120%;
             }
-.input-year {width: 5.5rem;text-align:  right;}
+.label {padding: 10px;}
 #status { margin-top: 22px;}
 #year { font-size: 200%; padding: 0px 20px 0px 20px;}
 .status-ok { background: #3fad46;}
@@ -24,106 +26,11 @@
 .border-warning {  border: 1px solid #f0ad4e; }
 .border-danger { border: 1px solid #d9534f; }
 .border-top { border-top: 1px solid #999; padding-top: 10px;}
+footer { margin-top: 20px;}
+footer p {margin: 0;}
+h1 { margin-bottom: 40px; }
 img {
   max-width: 80vw;
   max-height:80vh;
   width: 100%;
 }
-
-.loading-indicator {
-	height: 80px;
-	width: 80px;
-	background: url('https://cdn.glitch.com/525f3781-47b3-4fc3-87f5-fef704d62371%2Floading.gif?1515388800627');
-	background-repeat: no-repeat;
-	background-position: center center;
-}
-
-.loading-indicator-overlay {
-	background-color: #FFFFFF;
-	opacity: 0.6;
-}
-
-h2#tagline {
-    font-weight: lighter;
-    color: white;
-    margin: 0;
-    font-size: 1.4rem;
-}
-
-.container {
-    display: flex;
-    flex-flow: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    justify-items:  center;
-}
-
-#article {
-    display:flex;
-    flex-flow: column;
-    padding: 1rem;
-    border-radius:.25rem
-}
-
-.btn {
-    font-size: 1rem;
-    margin:  .5rem;
-    padding: .5rem 1rem;
-    background: none;
-    border:  none;
-    border-radius:  .5rem;
-    box-shadow: 0 0 .25rem hsla(0,0%,0%,.5);
-    transition-duration: .3s;
-    display: inline-flex;
-    text-align:  center;
-    text-decoration:  none;
-}
-
-label {
-  font-size:1rem;
-}
-
-input {
-    font-size: 2rem;
-    padding: .5rem 1rem;
-    margin:  1rem;
-    border-radius: .25rem;
-    border:  none;
-}
-
-hover {
-    background-color:  orange;
-    border: none;
-    border-radius:  .5rem;
-    box-shadow:  0 0 1rem;
-}
-
-.input-topic {
-    font-size: 1.4rem;
-}
-
-.btn-guess {
-    background: hsla(220,90%,60%,1);
-    color:  white;
-}
-
-.img-block {
-    background:  white;
-}
-
-.btn:hover {
-    box-shadow: 0 0 2rem hsla(0,0%,0%,.75);
-    transform: scale(1.1);
-}
-
-#reload-button { 
-    background:  white;
-}
-
-#reload-button:hover {
-  border: 2px solid hsl(200,100%,40%);
-}
-
-footer { margin-top: 20px;}
-footer p {margin: 0;}
-h1 { margin-bottom: 40px; }
