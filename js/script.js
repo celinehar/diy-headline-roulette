@@ -8,7 +8,7 @@ $(function(){
     var apiQuery = '';
     // Words you want to search for -- separate multiple values with spaces, eg:
     // var keywords = 'weather wragge';
-    var keywords = '';
+    var keywords = 'west western australia';
     // How you want to combine keywords -- all, any, or phrase
     var keywordType = 'all'
     // Limit to a particular year
@@ -24,7 +24,7 @@ $(function(){
     var byline = 'Created by <a href="https://timsherratt.org">Tim Sherratt</a>.'
     // var byline = '';
     // Add a tagline
-    var tagline = 'How well do you know your Australian history?';
+    var tagline = 'How well do you know your West Australian history?';
     // Leave this alone unless you're publishing on a non-https server
     var useHttps = 'true';
 
