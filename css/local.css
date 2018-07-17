@@ -1,22 +1,29 @@
 #headline {font-weight: bold;}
 #paper {font-style: italic;}
-#count {text-align:center;border-radius: 4px;
-margin: 1rem;background:  white;}
-#count p {
-	margin: 0;
-  padding: .25rem .5rem;
-	}
-#guesses {font-size:3rem;font-weight:  bold;color: hsl(0,0%,30%);}
-#text-guesses {color: #ffffff;font-size: 1.1rem;}
+#count {text-align:center;
+	border-radius: 4px;
+	margin: 1rem;
+	background:  white;}
+#count p {margin: 0; 
+	padding: .25rem .5rem;}
+#guesses {font-size: 400%; line-height: 200%;}
+#text-guesses {
+                width: 100%;
+                color: #ffffff;
+                padding: 10px 0 10px 0;
+                font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+                font-size: 120%;
+            }
 .input-year {width: 5.5rem;text-align:  right;}
+#status { margin-top: 22px;}
+#year { font-size: 200%; padding: 0px 20px 0px 20px;}
 .status-ok { background: #3fad46;}
 .status-warning { background: #f0ad4e;}
 .status-danger { background: #d9534f; }
 .border-ok { border: 1px solid #3fad46;}
 .border-warning {  border: 1px solid #f0ad4e; }
 .border-danger { border: 1px solid #d9534f; }
-.border-top { border-top: 1px solid #999;}
-
+.border-top { border-top: 1px solid #999; padding-top: 10px;}
 img {
   max-width: 80vw;
   max-height:80vh;
@@ -34,25 +41,6 @@ img {
 .loading-indicator-overlay {
 	background-color: #FFFFFF;
 	opacity: 0.6;
-}
-
-
-p {
-    margin: 0;
-}
-
-header {
-    padding: .75rem 1rem;
-    background: hsla(0,0%,0%,.8);
-    margin-bottom: 2rem;
-    box-shadow: 0 0.25rem 0.75rem hsla(0,0%,0%,.5);
-    z-index: 10;
-}
-
-h1 {
-    margin: 0;
-    color: hsl(0,0%,80%);
-    font-size: 1.7rem;
 }
 
 h2#tagline {
