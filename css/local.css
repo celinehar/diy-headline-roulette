@@ -135,3 +135,7 @@ hover {
 #reload-button:hover {
   border: 2px solid hsl(200,100%,40%);
 }
+
+footer { margin-top: 20px;}
+footer p {margin: 0;}
+h1 { margin-bottom: 40px; }
