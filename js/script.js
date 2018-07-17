@@ -79,7 +79,7 @@ $(function(){
                 }
           query = query + "&q=" + q
           //uncomment to get only State Library of WA results.
-          query= query + "&q-location=WLB"
+          //query= query + "&q-location=WLB"
         }
         return query;
     }
