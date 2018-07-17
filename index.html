@@ -10,47 +10,54 @@
     <link href="css/local.css" rel="stylesheet">
   </head>
   <body>
+    <header>
+	
+    <div>
+        <h1>Photo Roulette</h1>
+    	<h2 id="tagline">How well do you know your West Australian history?</h2>
+    </div>
+    </header>
     <div class="container">
-      <h1>Headline roulette <small id="tagline"></small></h1>
+
       <div class="row">
-        <div class="col-md-5">
-          <div id="article" class="well well-small">
-            <p id='headline'></p>
-            <p id='summary'></p>
-            <p id='paper'></p>
-            <div id='pub_details'>
-              <p id="date"></p>
-              <div id='article-link'></div>
-            </div>
-          </div>
-        </div>
-
-        <div id='guess' class="col-md-5">
-          <p class="lead">
-            Can you guess when this newspaper article was published?
-          </p>
-
-              <div class="row">
-              <div class="col-xs-5 col-md-5">
-                <input placeholder="YEAR" id='year' type="text" maxlength="4" class="input-lg form-control">
-              </div>
-              <div class="col-xs-7 col-md-7">
-              <button id='guess-button' class="btn btn-primary btn-lg">Guess</button>
-              <button id='reload-button' class="btn btn-lg">Reload</button>
-              </div>
-              </div>
-
-          <p class='text-info' id="status">
+        <div class="col-lg-5 col-md-5 col-sm-12">
+          <figure id="article" class="well well-small">
+            <img id="imgbox">
+          <figcaption>
+            <p id="headline"></p>
+            <p id="summary"></p>
+            <p id="paper"></p>
+            <div id="article-link"></div>
+            </figcaption>
             
-          </p>
+          </figure>
         </div>
-        <div class="col-md-2">
-          <div id='count' class="border-ok">
-              <p id='guesses'>10</p>
-              <p id='text-guesses' class="status-ok">guesses left</p>
+
+        <div id="guess" class="col-lg-5 col-md-5 col-sm-8 col-xs-12">
+          <label>Can you guess which year this photo was taken?</label>
+              <div class="row">
+              <div class="col-lg-3 col-md-4 col-xs-12">
+                <input placeholder="Year" id="year" type="number" maxlength="4" class="input-lg form-control">
+              </div>
+              <div class="col-md-7 col-xs-12">
+                <button id="guess-button" class="btn btn-primary btn-lg btn-guess">Guess</button>
+                <button id="reload-button" class="btn btn-lg">Show another photo</button>
+              </div>
+              </div>
+          <p class="text-info" id="status"><br>
+          </p>
+          <div id="desc" class="well-small">
+            <label>See photos from a subject of your choosing</label>
+            <input type="text" id="customQuery" class="input-lg form-control" placeholder="enter a topic eg. perth"></div>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-3 col-xs-8">
+          <div id="count" class="border-ok">
+              <p id="guesses">10</p>
+              <p id="text-guesses" class="status-ok">guesses left</p>
           </div>
         </div>
       </div>
+</div>
 
       <footer>
         <div class="row">
