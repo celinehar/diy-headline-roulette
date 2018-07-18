@@ -111,11 +111,11 @@ $(function(){
         return $.ajax({
             "dataType": "jsonp",
             "url": query,
-            "timeout": 20000
+            "timeout": 10000
         })
         .retry({times: 5, timeout: 5000})
         .done(function(results) {
-            window.setTimeout(process_results(results, type),10000);
+            window.setTimeout(process_results(results, type),3000);
         })
         .fail(function(xmlReq, txtStatus, errThrown){
             $("#article").hideLoading();
