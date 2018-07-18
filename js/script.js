@@ -21,7 +21,7 @@ $(function(){
     // var titles = '840 35';
     var titles = '';
     // Add a byline, eg:
-    var byline = 'Created by <a href="https://timsherratt.org">Tim Sherratt</a>.'
+    var byline = 'Original game by <a href="https://timsherratt.org">Tim Sherratt</a>, this version based off <a href="https://photo-roulette.glitch.me/">Photo Roulette</a> by Niall Stone.'
     // var byline = '';
     // Add a tagline
     var tagline = 'How well do you know your West Australian history?';
