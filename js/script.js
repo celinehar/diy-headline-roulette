@@ -113,9 +113,9 @@ $(function(){
             "url": query,
             "timeout": 10000
         })
-        .retry({times: 5, timeout: 3000})
+        .retry({times: 5, timeout: 1000})
         .done(function(results) {
-            window.setTimeout(process_results(results, type),5000);
+            window.setTimeout(process_results(results, type),3000);
         })
         .fail(function(xmlReq, txtStatus, errThrown){
             $("#article").hideLoading();
