@@ -1,4 +1,4 @@
-[http://kechara.github.io/wa-headline-roulette/](http://kechara.github.io/wa-headline-roulette/)
+[http://kechara.github.io/wa-photo-roulette/](http://kechara.github.io/wa-photo-roulette/)
 
 # DIY Trove Headline Roulette
 
